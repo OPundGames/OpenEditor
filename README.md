@@ -8,3 +8,7 @@ The **Hello Mario Engine** is an open source Mario engine for **GameMaker: Studi
 Before importing **Open Editor** into **GameMaker: Studio**, make sure that your copy has been updated to at least version 1.4. Otherwise, things will not work properly. Do not report any errors you get from using older versions unless they occur after you update. This engine is not tested on mobile platforms. If you are using the free version of **GameMaker: Studio**, make sure you upgrade it to the Standard version before importing.
 
 Find out more about **Hello Mario Engine**'s features on its [official website](http://hellofangaming.github.io/HelloMarioEngine/), hosted on GitHub!
+
+This clone is *not* endorsed by **Hello Fangaming**, they never approved nor helped me make this clone. I am not affiliated with **Hello Fangaming**. Also, this is **not** a "leak" of **Mario Editor**'s source code whatsoever! **Open Editor** is a completely fresh re-programming of **Mario Editor**, build directly on top of **Hello Mario Engine** v6.2.2.
+
+The Mario franchise is a registered trademark of **Nintendo**, this game is niether licensed nor endorsed by **Nintendo**.
