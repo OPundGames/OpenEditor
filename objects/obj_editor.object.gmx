@@ -362,7 +362,6 @@ if not disablecontrols
         or keyboard_check_pressed(vk_right)
         or keyboard_check_pressed(vk_up)
         or keyboard_check_pressed(vk_down))
-        and resizing = -1
         {
             //Resize the room
             event_user(3)
@@ -605,7 +604,7 @@ or json_get(global.leveldata,global.currentsection,"HEIGHT") * 16 != room_height
     
 }
 
-//Spam resize until arrow key is released
+//Resize again in 1 frame
 resizing = 1
 </string>
           </argument>
