@@ -3,8 +3,8 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <datafiles number="2" name="datafiles">
-    <datafiles number="2" name="Level">
+  <datafiles number="6" name="datafiles">
+    <datafiles number="6" name="Level">
       <datafile>
         <name>TUTORIAL.json</name>
         <exists>-1</exists>
@@ -25,7 +25,7 @@
       <datafile>
         <name>WELCOME TO OPEN EDITOR!.json</name>
         <exists>-1</exists>
-        <size>29578</size>
+        <size>30397</size>
         <exportAction>2</exportAction>
         <exportDir></exportDir>
         <overwrite>0</overwrite>
@@ -1648,6 +1648,7 @@
     <script>scripts\scr_sprite_make_object.gml</script>
     <script>scripts\scr_clearvars.gml</script>
     <script>scripts\scr_submenu_add_button.gml</script>
+    <script>scripts\scr_submenu_add_setting.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\sha_hq2x.shader</shader>
@@ -2041,8 +2042,9 @@
       <objects name="Level Editor">
         <objects name="Special">
           <object>objects\obj_ewindow</object>
-          <object>objects\obj_ewindow_button</object>
           <object>objects\obj_button_sticky</object>
+          <object>objects\obj_ewindow_button</object>
+          <object>objects\obj_button_toggle</object>
           <object>objects\obj_editor_placeparent</object>
           <object>objects\obj_editor_place_object</object>
           <object>objects\obj_editor_place_marker</object>
@@ -2321,10 +2323,7 @@
     <room>rooms\rm_select</room>
     <room>rooms\rm_challenge</room>
     <room>rooms\rm_editor</room>
-    <room>rooms\rm_template</room>
-    <rooms name="Special">
-      <room>rooms\rm_gameover</room>
-    </rooms>
+    <room>rooms\rm_gameover</room>
   </rooms>
   <constants number="49">
     <constant name="cs_small">0</constant>
